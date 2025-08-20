@@ -69,3 +69,26 @@ A tiny, friendly widget that shows the current temperature, wind, and a short de
 ## Tips & Troubleshooting
 
 Use full city names: New York instead of NY (avoids NOT_FOUND).
+
+--------------------------------------------------------------------------------------------
+
+# 🔎 GitHub User Lookup
+A simple web app to search GitHub usernames and display their profile info.  
+Type a username, hit **Search**, and instantly see details like name, followers, repos, and a link to their profile.
+
+
+## API
+
+- Endpoint: https://api.github.com/users/<UserName>
+
+## 🚀 How it works
+- Enter a GitHub username in the input box.  
+- Click the **Search** button (or press Enter).  
+- Results show up with user info and a profile link.
+
+## 🛠️ Tech
+- **HTML** for structure  
+- **CSS** (optional) for styling  
+- **JavaScript (Fetch API)** for retrieving data  
+
+

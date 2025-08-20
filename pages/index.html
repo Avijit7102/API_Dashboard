@@ -41,17 +41,17 @@
       <div class="col d-flex">
         <div class="card shadow border rounded-3 h-100 flex-fill">
           <div class="card-body d-flex flex-column">
-            <h5 class="mb-3">URL to QR code</h5>
+            <h5 class="mb-3">Find the Weather Info</h5>
 
-            <input type="text" class="form-control mb-3" placeholder="Write your URL here">
+            <input id="weatherQuery" type="text" class="form-control mb-3" placeholder="Write the city name here">
 
-            <div id="QRBody"
+            <div id="weatherBody"
                  class="bg-body-secondary border rounded d-flex align-items-center justify-content-center flex-grow-1 mb-3"
                  style="min-height:120px">
-              <small class="text-secondary">QR will appear here…</small>
+              <small class="text-secondary">Weather result will appear here…</small>
             </div>
 
-            <button class="btn btn-primary mt-auto" id="qrConvertBtn">Make QR Code</button>
+            <button class="btn btn-primary mt-auto" id="weatherButton">Search</button>
           </div>
         </div>
       </div>
@@ -103,6 +103,10 @@
     </div>
   </footer>
 
-  <script src="../scripts/currencyExchange.js"></script>
+  <script type="module" src="../scripts/currencyExchange.js"></script>
+
+  <!-- why I need type="module"?? -->
+
+  <script src="../scripts/weather.js"></script>
 </body>
 </html>

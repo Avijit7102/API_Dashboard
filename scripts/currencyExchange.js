@@ -1,4 +1,5 @@
 import { api_key } from "./apiKey.js";
+
 const api_url = "https://v6.exchangerate-api.com/v6";
 
 const currencyFrom = document.getElementById("currencyFrom");

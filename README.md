@@ -40,3 +40,32 @@ styles/
 
 ## License
 This project is open source and free to use.
+
+
+
+# 🌤️ Weather Card (API Dashboard)
+
+A tiny, friendly widget that shows the current temperature, wind, and a short description for a city—built with vanilla JS and Bootstrap 5.
+
+## What it does
+
+- Takes a city name (e.g., New York)
+
+- Calls the GoWeather API
+
+## API
+
+- Endpoint: https://goweather.xyz/weather/<CITY>
+
+- Example: https://goweather.xyz/weather/New%20York
+
+## Renders:
+
+- New York
+- Temperature: +23 °C
+- Wind: 19 km/h
+- Description: Partly cloudy
+
+## Tips & Troubleshooting
+
+Use full city names: New York instead of NY (avoids NOT_FOUND).
